@@ -1,0 +1,6 @@
+framework module Pods_MobilliumiOSChallengeTests {
+  umbrella header "Pods-MobilliumiOSChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

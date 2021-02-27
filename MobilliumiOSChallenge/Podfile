@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MobilliumiOSChallenge' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MobilliumiOSChallenge
+  pod "ImageSlideshow/Kingfisher"
+  pod 'IQKeyboardManagerSwift'
+  pod 'Cosmos'
+  pod 'RxSwift', '~> 4.0'
+  pod 'Alamofire', '~> 4.9.0'
+  pod 'JGProgressHUD'
+  pod 'Toaster'
+  pod 'SwiftDate'
+
+  target 'MobilliumiOSChallengeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MobilliumiOSChallengeUITests' do
+    # Pods for testing
+  end
+
+end

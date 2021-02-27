@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Cosmos (23.0.0)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/Kingfisher (1.9.2):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JGProgressHUD (2.2)
+  - Kingfisher (6.1.1)
+  - RxSwift (4.5.0)
+  - SwiftDate (6.3.1)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.0)
+  - Cosmos
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - RxSwift (~> 4.0)
+  - SwiftDate
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - Kingfisher
+    - RxSwift
+    - SwiftDate
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: bd50fe1844ec0ee6e008e681105fbef9847b192c
+
+COCOAPODS: 1.9.3

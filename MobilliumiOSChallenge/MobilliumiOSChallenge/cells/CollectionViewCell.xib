@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="MobilliumiOSChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qBx-Tz-5Eg">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UeT-6h-fnf">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gEx-LD-GjV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joker (2019)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="rxh-Xz-kWp">
+                                <rect key="frame" x="8" y="108" width="112" height="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UeT-6h-fnf" firstAttribute="top" secondItem="qBx-Tz-5Eg" secondAttribute="top" id="9I5-fX-Tyk"/>
+                            <constraint firstAttribute="trailing" secondItem="rxh-Xz-kWp" secondAttribute="trailing" constant="8" id="Mrp-Ja-bl1"/>
+                            <constraint firstAttribute="bottom" secondItem="rxh-Xz-kWp" secondAttribute="bottom" constant="8" id="boW-pk-A6e"/>
+                            <constraint firstItem="rxh-Xz-kWp" firstAttribute="leading" secondItem="qBx-Tz-5Eg" secondAttribute="leading" constant="8" id="dlw-i7-FmX"/>
+                            <constraint firstItem="UeT-6h-fnf" firstAttribute="leading" secondItem="qBx-Tz-5Eg" secondAttribute="leading" id="rHn-2Z-uga"/>
+                            <constraint firstAttribute="trailing" secondItem="UeT-6h-fnf" secondAttribute="trailing" id="uRy-or-e3d"/>
+                            <constraint firstItem="rxh-Xz-kWp" firstAttribute="top" secondItem="UeT-6h-fnf" secondAttribute="bottom" constant="8" id="xV9-wZ-K3C"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qBx-Tz-5Eg" secondAttribute="bottom" id="QMb-VJ-Q6G"/>
+                <constraint firstItem="qBx-Tz-5Eg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="U4G-WN-A7A"/>
+                <constraint firstItem="qBx-Tz-5Eg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dgc-fy-PE6"/>
+                <constraint firstAttribute="trailing" secondItem="qBx-Tz-5Eg" secondAttribute="trailing" id="qLa-GU-JmU"/>
+            </constraints>
+            <connections>
+                <outlet property="img" destination="UeT-6h-fnf" id="qou-0f-0td"/>
+                <outlet property="titleLabel" destination="rxh-Xz-kWp" id="6vT-Je-Wta"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="101.78571428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
